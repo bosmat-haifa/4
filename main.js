@@ -6,8 +6,8 @@ setInterval(function() {
     if (searchbox.value == "32.811406, 34.958292" && !flag) {
         searchbox.setAttribute("disabled", "");
         show.removeAttribute("id");
-        var waypoint = document.getElementById("waypoint")
-        waypoint.style.zIndex = "3";
+        var waypoint = document.getElementById("map");
+        waypoint.setAttribute("src", "waypointmap.png");
         return flag = true;
     };
 }); // needs transition

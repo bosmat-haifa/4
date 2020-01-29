@@ -96,7 +96,7 @@ ul#stations li button {
     border: none;
 }
 
-img#waypoint {
+/* img#waypoint {
     position: absolute;
     width: calc(168px / 6);
     height: calc(301px / 6);
@@ -107,11 +107,9 @@ img#waypoint {
     -moz-user-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
-}
+} */
 
 img#map {
-    position: absolute;
-    bottom: calc(0px - 80px);
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;

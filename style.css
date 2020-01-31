@@ -110,6 +110,8 @@ ul#stations li button {
 } */
 
 img#map {
+    position: absolute;
+    left: 0;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;

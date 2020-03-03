@@ -3,7 +3,7 @@ var searchbox = document.getElementById("searchbox");
 var show = document.getElementById("show");
 var flag = false;
 setInterval(function() {
-    if (searchbox.value == "32.811406, 34.958292" && !flag) {
+    if (searchbox.value == "32.81 34.95" && !flag) {
         searchbox.setAttribute("disabled", "");
         show.removeAttribute("id");
         var waypoint = document.getElementById("map");
